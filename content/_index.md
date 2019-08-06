@@ -1,3 +1,10 @@
+---
+title: "Documentación"
+date: 2019-08-05T10:21:50-05:00
+draft: false
+---
+
+
 An h1 header
 ============
 
@@ -149,7 +156,9 @@ Here's a "line block" (note how whitespace is honored):
 and images can be specified like so:
 
 ![example image](plogo.png "An exemplary image")
-<img src="ROZVO.png" width="200">
+<img src="hugo-logo.svg" width="200">
+
+
 
 Inline math equation: $\omega = d\phi / dt$. Display
 math should get its own line like so:
