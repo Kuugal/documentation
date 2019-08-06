@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://kuugal.github.io/documentation/"
 languageCode = "en-us"
 title = "Documentación personal"
 theme = "learn"
