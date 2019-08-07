@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://kuugal.github.io/documentation/images/favicon.ico" type="image/png">
 
-    <title>Instalación :: Documentación personal</title>
+    <title>Hugo :: Documentación personal</title>
 
     
     <link href="https://kuugal.github.io/documentation/css/nucleus.css?1565218365" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/instalaciones/">
+  <body class="" data-url="/uso/hugo-flow/">
     <nav id="sidebar" class="">
 
 
@@ -79,8 +79,8 @@
   
     
     <li data-nav-id="/instalaciones/" title="Instalación" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="https://kuugal.github.io/documentation/instalaciones/">
@@ -130,7 +130,7 @@
   
     
     <li data-nav-id="/uso/" title="Uso y configuración" class="dd-item 
-        
+        parent
         
         
         ">
@@ -154,7 +154,7 @@
  
   
     
-      <li data-nav-id="/uso/hugo-flow/" title="Hugo" class="dd-item ">
+      <li data-nav-id="/uso/hugo-flow/" title="Hugo" class="dd-item active">
         <a href="https://kuugal.github.io/documentation/uso/hugo-flow/">
         Hugo flow
         
@@ -245,6 +245,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -255,7 +257,13 @@
             
           
           
-            <a href='https://kuugal.github.io/documentation/'>Documentación</a> > Instalación
+            
+            
+          
+          
+            <a href='https://kuugal.github.io/documentation/'>Documentación</a> > <a href='https://kuugal.github.io/documentation/uso/'>Uso y configuración</a> > Hugo
+          
+         
           
          
           
@@ -264,16 +272,49 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#nuevo-documento">Nuevo documento</a></li>
+<li><a href="#forestry">Forestry</a></li>
+<li><a href="#configuración">Configuración</a>
+<ul>
+<li><a href="#rutas">Rutas</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
         <div id="head-tags">
         
+<div class="tags">
+
+  <a class="tag-link" href="https://kuugal.github.io/documentation/tags/hugo">hugo</a>
+
+  <a class="tag-link" href="https://kuugal.github.io/documentation/tags/cms">CMS</a>
+
+</div>
+
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              Hugo
+            </h1>
           
 
         
@@ -281,24 +322,80 @@
 
 
 
-	
 
-<h3 id="sección-1">Sección 1</h3>
+<h3 id="nuevo-documento">Nuevo documento</h3>
 
-<h1 id="instalación">Instalación</h1>
+<hr />
 
-<p>Cómo instalar las herramientas.</p>
+<ol>
+<li>Crea un archivo con extensión markdown <strong>.md</strong> en el directorio pertinente</li>
 
+<li><p>Agrega el header <em>YAML o TOML</em> al archivo</p>
 
+<hr />
 
+<p>title: &ldquo;Hugo&rdquo;</p>
+
+<p>tags: [&ldquo;hugo&rdquo;, &ldquo;CMS&rdquo;]</p>
+
+<p>menuTitle : &ldquo;Hugo flow&rdquo;</p>
+
+<hr /></li>
+
+<li><p>Se agrega el logo (720px) <strong>Sólo si es md de instalación</strong></p>
+
+<p><img src="https://kuugal.github.io/documentation/img/hugo-logo.svg" width="720"></p></li>
+
+<li><p>Agrega contenido de manera organizada</p>
+
+<p>### Nuevo documento</p>
+
+<hr />
+
+<ol>
+<li>Crea un archivo con extensión markdown <strong>.md</strong> en el directorio pertinente</li>
+</ol></li>
+</ol>
+
+<h3 id="forestry">Forestry</h3>
+
+<hr />
+
+<ol>
+<li>Entra al panel administrativo de <a href="https://app.forestry.io/dashboard/#/" title="Admin panel">forestry</a></li>
+<li>Selecciona el proyecto de documentación</li>
+<li>Ve a la sección donde crear el nuevo documento</li>
+<li>Crea el md deacuero a las <a href="https://kuugal.github.io/documentation/uso/hugo-flow/#nuevo-documento" title="guías">guías</a>, guarda</li>
+<li>Espera 1 minuto a que se hagan los cambios en el servidor</li>
+</ol>
+
+<h3 id="configuración">Configuración</h3>
+
+<hr />
+
+<h4 id="rutas">Rutas</h4>
+
+<ul>
+<li><strong>Favicon</strong>
+/themes/learn/layouts/partials/favicon.html</li>
+<li><strong>Logo</strong>
+/themes/learn/layouts/partials/logo.html</li>
+<li><strong>Imagenes</strong>
+/themes/learn/static/images/ <em>(.png or .ico)</em></li>
+<li><strong>Variante del tema</strong>
+/config.toml</li>
+</ul>
+
+<p>[params]
+  # Change default color scheme with a variant one. Can be &ldquo;red&rdquo;, &ldquo;blue&rdquo;, &ldquo;green&rdquo;.
+  themeVariant = &ldquo;red&rdquo;</p>
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
+
         
         </div> 
         
@@ -330,41 +427,8 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
                         
                         
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -390,10 +454,47 @@
             
         
                     
+            
+        
+                    
                         
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -418,10 +519,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="https://kuugal.github.io/documentation/" title="Documentación"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="https://kuugal.github.io/documentation/uso/" title="Uso y configuración"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="https://kuugal.github.io/documentation/instalaciones/hugo/" title="Hugo" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="https://kuugal.github.io/documentation/uso/markdown/" title="Markdown" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -452,3 +553,4 @@
 
   </body>
 </html>
+
