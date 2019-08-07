@@ -36,6 +36,7 @@ build:
   - HUGO_ENV=production
   - HUGO_VERSION=0.56.1
   - HUGO_ENABLEGITINFO=true
+  - baseURL=https://kuugal.github.io/documentation/
   preview_output_directory: public
   output_directory: public
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
