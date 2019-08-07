@@ -20,5 +20,19 @@
       <description>¿Qué es hugo? Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again. Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.</description>
     </item>
     
+    <item>
+      <title>Hugo</title>
+      <link>https://kuugal.github.io/documentation/uso/hugo-flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kuugal.github.io/documentation/uso/hugo-flow/</guid>
+      <description>Nuevo documento  Crea un archivo con extensión markdown .md en el directorio pertinente Agrega el header YAML o TOML al archivo
+title: &amp;ldquo;Hugo&amp;rdquo; tags: [&amp;ldquo;hugo&amp;rdquo;, &amp;ldquo;CMS&amp;rdquo;] menuTitle : &amp;ldquo;Hugo flow&amp;rdquo;
+ Se agrega el logo (720px) Sólo si es md de instalación
+ Agrega contenido de manera organizada
+### Nuevo documento
+ Crea un archivo con extensión markdown .md en el directorio pertinente   Forestry  Entra al panel administrativo de forestry Selecciona el proyecto de documentación Ve a la sección donde crear el nuevo documento Crea el md deacuero a las guías, guarda Espera 1 minuto a que se hagan los cambios en el servidor  Configuración Rutas  Favicon /themes/learn/layouts/partials/favicon.</description>
+    </item>
+    
   </channel>
 </rss>
