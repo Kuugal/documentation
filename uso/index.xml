@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uso y configuración on Documentación personal</title>
-    <link>http://localhost/uso/</link>
+    <link>https://kuugal.github.io/documentation/uso/</link>
     <description>Recent content in Uso y configuración on Documentación personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://localhost/uso/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kuugal.github.io/documentation/uso/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo</title>
-      <link>http://localhost/uso/hugo-flow/</link>
+      <link>https://kuugal.github.io/documentation/uso/hugo-flow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/uso/hugo-flow/</guid>
+      <guid>https://kuugal.github.io/documentation/uso/hugo-flow/</guid>
       <description>Nuevo documento  Crea un archivo con extensión markdown .md en el directorio pertinente
  Agrega el header YAML o TOML al archivo
 --- title: &amp;quot;Hugo&amp;quot; tags: [&amp;quot;hugo&amp;quot;, &amp;quot;CMS&amp;quot;] menuTitle : &amp;quot;Hugo flow&amp;quot; ---  Se agrega el logo (720px) Sólo si es md de instalación
@@ -25,11 +25,11 @@
     
     <item>
       <title>Markdown</title>
-      <link>http://localhost/uso/markdown/</link>
+      <link>https://kuugal.github.io/documentation/uso/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/uso/markdown/</guid>
-      <description> Cheatsheet </description>
+      <guid>https://kuugal.github.io/documentation/uso/markdown/</guid>
+      <description>Cheatsheet Test</description>
     </item>
     
   </channel>
