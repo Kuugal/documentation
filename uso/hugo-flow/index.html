@@ -9,7 +9,7 @@
 
     <link rel="icon" href="http://localhost/images/favicon.ico" type="image/png">
 
-    <title>Tags :: Documentación personal</title>
+    <title>Hugo :: Documentación personal</title>
 
     
     <link href="http://localhost/css/nucleus.css?1565213486" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tags/">
+  <body class="" data-url="/uso/hugo-flow/">
     <nav id="sidebar" class="">
 
 
@@ -130,7 +130,7 @@
   
     
     <li data-nav-id="/uso/" title="Uso y configuración" class="dd-item 
-        
+        parent
         
         
         ">
@@ -154,7 +154,7 @@
  
   
     
-      <li data-nav-id="/uso/hugo-flow/" title="Hugo" class="dd-item ">
+      <li data-nav-id="/uso/hugo-flow/" title="Hugo" class="dd-item active">
         <a href="http://localhost/uso/hugo-flow/">
         Hugo flow
         
@@ -253,7 +253,19 @@
                     
           
           
-            Tags
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='http://localhost/'>Documentación</a> > <a href='http://localhost/uso/'>Uso y configuración</a> > Hugo
+          
+         
+          
+         
           
         
                  
@@ -262,7 +274,22 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#nuevo-documento">Nuevo documento</a></li>
+<li><a href="#deploy">Deploy</a></li>
+<li><a href="#configuración">Configuración</a>
+<ul>
+<li><a href="#rutas">Rutas</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -272,13 +299,21 @@
             
         <div id="head-tags">
         
+<div class="tags">
+
+  <a class="tag-link" href="http://localhost/tags/hugo">hugo</a>
+
+  <a class="tag-link" href="http://localhost/tags/cms">CMS</a>
+
+</div>
+
         </div>
         
         <div id="body-inner">
           
             <h1>
               
-              Tags
+              Hugo
             </h1>
           
 
@@ -288,23 +323,74 @@
 
 
 
+<h3 id="nuevo-documento">Nuevo documento</h3>
+
+<hr />
+
+<ol>
+<li><p>Crea un archivo con extensión markdown <strong>.md</strong> en el directorio pertinente</p></li>
+
+<li><p>Agrega el header <em>YAML o TOML</em> al archivo</p>
+
+<pre><code>---
+title: &quot;Hugo&quot;
+tags: [&quot;hugo&quot;, &quot;CMS&quot;]
+menuTitle : &quot;Hugo flow&quot;
+---
+</code></pre></li>
+
+<li><p>Se agrega el logo (720px) <strong>Sólo si es md de instalación</strong></p>
+
+<pre><code>&lt;img src=&quot;/img/hugo-logo.svg&quot; width=&quot;720&quot;&gt;
+</code></pre></li>
+
+<li><p>Agrega contenido de manera organizada</p>
+
+<pre><code>### Nuevo documento
+___
+1. Crea un archivo con extensión markdown **.md** en el directorio pertinente
+</code></pre></li>
+</ol>
+
+<h3 id="deploy">Deploy</h3>
+
+<hr />
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Write the press release</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Update the website</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Contact the media</label></li>
+</ul>
+
+<h3 id="configuración">Configuración</h3>
+
+<hr />
+
+<h4 id="rutas">Rutas</h4>
 
 <ul>
-	
-		<li><a href="http://localhost/tags/cms/">CMS</a></li>
-	
-		<li><a href="http://localhost/tags/hugo/">hugo</a></li>
-	
-		<li><a href="http://localhost/tags/cheatsheet/">cheatsheet</a></li>
-	
-		<li><a href="http://localhost/tags/markdown/">markdown</a></li>
-	
+<li><strong>Favicon</strong>
+/themes/learn/layouts/partials/favicon.html</li>
+<li><strong>Logo</strong>
+/themes/learn/layouts/partials/logo.html</li>
+<li><strong>Imagenes</strong>
+/themes/learn/static/images/ <em>(.png or .ico)</em></li>
+
+<li><p><strong>Variante del tema</strong>
+/config.toml</p>
+
+<pre><code>[params]
+# Change default color scheme with a variant one. Can be &quot;red&quot;, &quot;blue&quot;, &quot;green&quot;.
+themeVariant = &quot;red&quot;
+
+</code></pre></li>
 </ul>
 
 
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -372,6 +458,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -384,6 +471,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -400,6 +488,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -424,8 +515,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="http://localhost/uso/" title="Uso y configuración"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="http://localhost/instalaciones/" title="Instalación" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="http://localhost/uso/markdown/" title="Markdown" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -456,3 +549,4 @@
 
   </body>
 </html>
+

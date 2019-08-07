@@ -2,22 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documentación on Documentación personal</title>
-    <link>https://kuugal.github.io/documentation/</link>
+    <link>http://localhost/</link>
     <description>Recent content in Documentación on Documentación personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Aug 2019 10:21:50 -0500</lastBuildDate>
     
-	<atom:link href="https://kuugal.github.io/documentation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo</title>
-      <link>https://kuugal.github.io/documentation/instalaciones/hugo/</link>
+      <link>http://localhost/instalaciones/hugo/</link>
       <pubDate>Mon, 05 Aug 2019 10:21:50 -0500</pubDate>
       
-      <guid>https://kuugal.github.io/documentation/instalaciones/hugo/</guid>
+      <guid>http://localhost/instalaciones/hugo/</guid>
       <description>¿Qué es hugo? Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again. Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost/uso/hugo-flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/uso/hugo-flow/</guid>
+      <description>Nuevo documento  Crea un archivo con extensión markdown .md en el directorio pertinente
+ Agrega el header YAML o TOML al archivo
+--- title: &amp;quot;Hugo&amp;quot; tags: [&amp;quot;hugo&amp;quot;, &amp;quot;CMS&amp;quot;] menuTitle : &amp;quot;Hugo flow&amp;quot; ---  Se agrega el logo (720px) Sólo si es md de instalación
+&amp;lt;img src=&amp;quot;/img/hugo-logo.svg&amp;quot; width=&amp;quot;720&amp;quot;&amp;gt;  Agrega contenido de manera organizada
+### Nuevo documento ___ 1. Crea un archivo con extensión markdown **.md** en el directorio pertinente   Deploy Write the press release Update the website Contact the media  Configuración Rutas  Favicon /themes/learn/layouts/partials/favicon.</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost/uso/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/uso/markdown/</guid>
+      <description> Cheatsheet </description>
     </item>
     
   </channel>

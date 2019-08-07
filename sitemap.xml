@@ -3,44 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kuugal.github.io/documentation/instalaciones/</loc>
-    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
+    <loc>http://localhost/instalaciones/</loc>
+    <lastmod>2019-08-06T10:35:07-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kuugal.github.io/documentation/uso/</loc>
+    <loc>http://localhost/uso/</loc>
+    <lastmod>2019-08-06T10:35:07-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kuugal.github.io/documentation/tags/cms/</loc>
-    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
+    <loc>http://localhost/tags/cms/</loc>
+    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kuugal.github.io/documentation/</loc>
-    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
+    <loc>http://localhost/instalaciones/hugo/</loc>
+    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kuugal.github.io/documentation/instalaciones/hugo/</loc>
-    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kuugal.github.io/documentation/tags/</loc>
-    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
+    <loc>http://localhost/tags/</loc>
+    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kuugal.github.io/documentation/tags/hugo/</loc>
-    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
+    <loc>http://localhost/tags/hugo/</loc>
+    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kuugal.github.io/documentation/categories/</loc>
+    <loc>http://localhost/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost/</loc>
+    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/uso/hugo-flow/</loc>
+    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/uso/markdown/</loc>
+    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/cheatsheet/</loc>
+    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/markdown/</loc>
+    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
     <priority>0</priority>
   </url>
   

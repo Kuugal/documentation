@@ -1,56 +1,84 @@
 [
 {
-	"uri": "https://kuugal.github.io/documentation/instalaciones/",
+	"uri": "http://localhost/instalaciones/",
 	"title": "Instalación",
 	"tags": [],
 	"description": "",
 	"content": " Sección 1 Instalación Cómo instalar las herramientas.\n"
 },
 {
-	"uri": "https://kuugal.github.io/documentation/uso/",
+	"uri": "http://localhost/uso/",
 	"title": "Uso y configuración",
 	"tags": [],
 	"description": "",
 	"content": " Sección 2 Uso y configuración Cómo configurar y realizar procesos recurrentes con las herramientas.\n"
 },
 {
-	"uri": "https://kuugal.github.io/documentation/tags/cms/",
+	"uri": "http://localhost/tags/cms/",
 	"title": "CMS",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://kuugal.github.io/documentation/",
-	"title": "Documentación",
-	"tags": [],
-	"description": "",
-	"content": " An h1 header Paragraphs are separated by a blank line.\n2nd paragraph. Italic, bold, and monospace. Itemized lists look like:\n this one that one the other one  Note that \u0026mdash; not considering the asterisk \u0026mdash; the actual text content starts at 4-columns in.\n Block quotes are written like so.\nThey can span multiple paragraphs, if you like.\n Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., \u0026ldquo;it\u0026rsquo;s all in chapters 12\u0026ndash;14\u0026rdquo;). Three dots \u0026hellip; will be converted to an ellipsis. Unicode is supported. ☺\nAn h2 header Here\u0026rsquo;s a numbered list:\n first item second item third item  Note again how the actual text starts at 4 columns in (4 characters from the left side). Here\u0026rsquo;s a code sample:\n# Let me re-iterate ... for i in 1 .. 10 { do-something(i) }  As you probably guessed, indented 4 spaces. By the way, instead of indenting the block, you can use delimited blocks, if you like:\ndefine foobar() { print \u0026quot;Welcome to flavor country!\u0026quot;; }  (which makes copying \u0026amp; pasting easier). You can optionally mark the delimited block for Pandoc to syntax highlight it:\nimport time # Quick, count to ten! for i in range(10): # (but not *too* quick) time.sleep(0.5) print(i)  An h3 header Now a nested list:\n First, get these ingredients:\n carrots celery lentils  Boil some water.\n Dump everything in the pot and follow this algorithm:\nfind wooden spoon uncover pot stir cover pot balance wooden spoon precariously on pot handle wait 10 minutes goto first step (or shut off burner when done)  Do not bump wooden spoon or it will fall.\n  Notice again how text always lines up on 4-space indents (including that last line which continues item 3 above).\nHere\u0026rsquo;s a link to a website, to a local doc, and to a section heading in the current doc. Here\u0026rsquo;s a footnote 1.\nTables can look like this:\nName Size Material Color\nAll Business 9 leather brown Roundabout 10 hemp canvas natural Cinderella 11 glass transparent\nTable: Shoes sizes, materials, and colors.\n(The above is the caption for the table.) Pandoc also supports multi-line tables:\nKeyword Text\nred Sunsets, apples, and other red or reddish things.\ngreen Leaves, grass, frogs and other things it\u0026rsquo;s not easy being.\nA horizontal rule follows.\nHere\u0026rsquo;s a definition list:\napples : Good for making applesauce.\noranges : Citrus!\ntomatoes : There\u0026rsquo;s no \u0026ldquo;e\u0026rdquo; in tomatoe.\nAgain, text is indented 4 spaces. (Put a blank line between each term and its definition to spread things out more.)\nHere\u0026rsquo;s a \u0026ldquo;line block\u0026rdquo; (note how whitespace is honored):\n| Line one | Line too | Line tree\nand images can be specified like so:\nInline math equation: $\\omega = d\\phi / dt$. Display math should get its own line like so:\n$$I = \\int \\rho R^{2} dV$$\nAnd note that you can backslash-escape any punctuation characters which you wish to be displayed literally, ex.: `foo`, *bar*, etc.\n Some footnote text.\r[return]   "
-},
-{
-	"uri": "https://kuugal.github.io/documentation/instalaciones/hugo/",
+	"uri": "http://localhost/instalaciones/hugo/",
 	"title": "Hugo",
 	"tags": ["hugo", "CMS"],
 	"description": "",
-	"content": " ¿Qué es hugo? Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again. Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.\nWebsites built with Hugo are extremely fast and secure. Hugo sites can be hosted anywhere, including Netlify, Heroku, GoDaddy, DreamHost, GitHub Pages, GitLab Pages, Surge, Aerobatic, Firebase, Google Cloud Storage, Amazon S3, Rackspace, Azure, and CloudFront and work well with CDNs. Hugo sites run without the need for a database or dependencies on expensive runtimes like Ruby, Python, or PHP.\nWe think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.\nWindows  Download the latest zipped Hugo executable from Hugo Releases\n Create a subfolder in the Hugo folder: C:\\Hugo\\bin\n Extract all contents to your ..\\Hugo\\bin folder\n Agrega la variable de entorno C:\\Hugo\\bin a PATH\n Right click on the Start button Click on System Click on Advanced System Settings on the left Click on the Environment Variables… button on the bottom In the User variables section, find the row that starts with PATH (PATH will be all caps) Double-click on PATH Click the New… button Type in the folder where hugo.exe was extracted, which is C:\\Hugo\\bin Click OK at every window to exit   Comprueba la instalación con:\nhugo version  Usa hugo help para ver la lista de comandos disponibles\n\r\r\r\r\rTIPS\r\r\r Favicon /themes/learn/layouts/partials/favicon.html Logo /themes/learn/layouts/partials/logo.html Imagenes /themes/learn/static/images/ (.png or .ico)  \r\n"
+	"content": " ¿Qué es hugo? Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again. Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.\nWebsites built with Hugo are extremely fast and secure. Hugo sites can be hosted anywhere, including Netlify, Heroku, GoDaddy, DreamHost, GitHub Pages, GitLab Pages, Surge, Aerobatic, Firebase, Google Cloud Storage, Amazon S3, Rackspace, Azure, and CloudFront and work well with CDNs. Hugo sites run without the need for a database or dependencies on expensive runtimes like Ruby, Python, or PHP.\nWe think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.\nWindows  Download the latest zipped Hugo executable from Hugo Releases\n Create a subfolder in the Hugo folder: C:\\Hugo\\bin\n Extract all contents to your ..\\Hugo\\bin folder\n Agrega la variable de entorno C:\\Hugo\\bin a PATH\n Right click on the Start button Click on System Click on Advanced System Settings on the left Click on the Environment Variables… button on the bottom In the User variables section, find the row that starts with PATH (PATH will be all caps) Double-click on PATH Click the New… button Type in the folder where hugo.exe was extracted, which is C:\\Hugo\\bin Click OK at every window to exit   Comprueba la instalación con:\nhugo version  Usa hugo help para ver la lista de comandos disponibles\n "
 },
 {
-	"uri": "https://kuugal.github.io/documentation/tags/",
+	"uri": "http://localhost/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://kuugal.github.io/documentation/tags/hugo/",
+	"uri": "http://localhost/tags/hugo/",
 	"title": "hugo",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://kuugal.github.io/documentation/categories/",
+	"uri": "http://localhost/categories/",
 	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost/",
+	"title": "Documentación",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost/uso/hugo-flow/",
+	"title": "Hugo",
+	"tags": ["hugo", "CMS"],
+	"description": "",
+	"content": " Nuevo documento  Crea un archivo con extensión markdown .md en el directorio pertinente\n Agrega el header YAML o TOML al archivo\n--- title: \u0026quot;Hugo\u0026quot; tags: [\u0026quot;hugo\u0026quot;, \u0026quot;CMS\u0026quot;] menuTitle : \u0026quot;Hugo flow\u0026quot; ---  Se agrega el logo (720px) Sólo si es md de instalación\n\u0026lt;img src=\u0026quot;/img/hugo-logo.svg\u0026quot; width=\u0026quot;720\u0026quot;\u0026gt;  Agrega contenido de manera organizada\n### Nuevo documento ___ 1. Crea un archivo con extensión markdown **.md** en el directorio pertinente   Deploy Write the press release Update the website Contact the media  Configuración Rutas  Favicon /themes/learn/layouts/partials/favicon.html Logo /themes/learn/layouts/partials/logo.html Imagenes /themes/learn/static/images/ (.png or .ico) Variante del tema /config.toml\n[params] # Change default color scheme with a variant one. Can be \u0026quot;red\u0026quot;, \u0026quot;blue\u0026quot;, \u0026quot;green\u0026quot;. themeVariant = \u0026quot;red\u0026quot;   "
+},
+{
+	"uri": "http://localhost/uso/markdown/",
+	"title": "Markdown",
+	"tags": ["markdown", "cheatsheet"],
+	"description": "",
+	"content": " Cheatsheet "
+},
+{
+	"uri": "http://localhost/tags/cheatsheet/",
+	"title": "cheatsheet",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost/tags/markdown/",
+	"title": "markdown",
 	"tags": [],
 	"description": "",
 	"content": ""
