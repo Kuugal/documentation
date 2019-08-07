@@ -16,11 +16,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kuugal.github.io/documentation/uso/hugo-flow/</guid>
-      <description>Nuevo documento  Crea un archivo con extensión markdown .md en el directorio pertinente
- Agrega el header YAML o TOML al archivo
---- title: &amp;quot;Hugo&amp;quot; tags: [&amp;quot;hugo&amp;quot;, &amp;quot;CMS&amp;quot;] menuTitle : &amp;quot;Hugo flow&amp;quot; ---  Se agrega el logo (720px) Sólo si es md de instalación
-&amp;lt;img src=&amp;quot;/img/hugo-logo.svg&amp;quot; width=&amp;quot;720&amp;quot;&amp;gt;  Agrega contenido de manera organizada
-### Nuevo documento ___ 1. Crea un archivo con extensión markdown **.md** en el directorio pertinente   Deploy Write the press release Update the website Contact the media  Configuración Rutas  Favicon /themes/learn/layouts/partials/favicon.</description>
+      <description>Nuevo documento  Crea un archivo con extensión markdown .md en el directorio pertinente Agrega el header YAML o TOML al archivo
+title: &amp;ldquo;Hugo&amp;rdquo; tags: [&amp;ldquo;hugo&amp;rdquo;, &amp;ldquo;CMS&amp;rdquo;]
+menuTitle : &amp;ldquo;Hugo flow&amp;rdquo; Se agrega el logo (720px) Sólo si es md de instalación
+ Agrega contenido de manera organizada
+Nuevo documento  Crea un archivo con extensión markdown .md en el directorio pertinente   Forestry  Entra al panel administrativo de forestry Selecciona el proyecto de documentación Ve a la sección donde crear el nuevo documento Crea el md deacuero a las guías, guarda  Configuración Rutas  Favicon /themes/learn/layouts/partials/favicon.</description>
     </item>
     
     <item>
