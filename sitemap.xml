@@ -4,34 +4,38 @@
   
   <url>
     <loc>https://kuugal.github.io/documentation/instalaciones/</loc>
-    <lastmod>2019-08-06T10:35:07-05:00</lastmod>
+    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://kuugal.github.io/documentation/uso/</loc>
-    <lastmod>2019-08-06T10:35:07-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://kuugal.github.io/documentation/tags/cms/</loc>
-    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
+    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://kuugal.github.io/documentation/</loc>
+    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kuugal.github.io/documentation/instalaciones/hugo/</loc>
-    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
+    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://kuugal.github.io/documentation/tags/</loc>
-    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
+    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kuugal.github.io/documentation/tags/hugo/</loc>
-    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
+    <lastmod>2019-08-05T10:21:50-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -41,29 +45,20 @@
   </url>
   
   <url>
-    <loc>https://kuugal.github.io/documentation/</loc>
-    <lastmod>2019-08-07T21:30:40-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kuugal.github.io/documentation/uso/hugo-flow/</loc>
-    <lastmod>2019-08-07T23:05:28+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://kuugal.github.io/documentation/uso/markdown/</loc>
-    <lastmod>2019-08-07T22:02:35+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://kuugal.github.io/documentation/tags/cheatsheet/</loc>
-    <lastmod>2019-08-07T22:02:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kuugal.github.io/documentation/tags/markdown/</loc>
-    <lastmod>2019-08-07T22:02:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   

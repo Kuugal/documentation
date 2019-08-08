@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.56.1" />
+    <meta name="generator" content="Hugo 0.56.3" />
     <meta name="description" content="">
 
 
@@ -12,20 +12,20 @@
     <title>Hugo :: Documentación personal</title>
 
     
-    <link href="https://kuugal.github.io/documentation/css/nucleus.css?1565219147" rel="stylesheet">
-    <link href="https://kuugal.github.io/documentation/css/fontawesome-all.min.css?1565219147" rel="stylesheet">
-    <link href="https://kuugal.github.io/documentation/css/hybrid.css?1565219147" rel="stylesheet">
-    <link href="https://kuugal.github.io/documentation/css/featherlight.min.css?1565219147" rel="stylesheet">
-    <link href="https://kuugal.github.io/documentation/css/perfect-scrollbar.min.css?1565219147" rel="stylesheet">
-    <link href="https://kuugal.github.io/documentation/css/auto-complete.css?1565219147" rel="stylesheet">
-    <link href="https://kuugal.github.io/documentation/css/atom-one-dark-reasonable.css?1565219147" rel="stylesheet">
-    <link href="https://kuugal.github.io/documentation/css/theme.css?1565219147" rel="stylesheet">
-    <link href="https://kuugal.github.io/documentation/css/hugo-theme.css?1565219147" rel="stylesheet">
+    <link href="https://kuugal.github.io/documentation/css/nucleus.css?1565288995" rel="stylesheet">
+    <link href="https://kuugal.github.io/documentation/css/fontawesome-all.min.css?1565288995" rel="stylesheet">
+    <link href="https://kuugal.github.io/documentation/css/hybrid.css?1565288995" rel="stylesheet">
+    <link href="https://kuugal.github.io/documentation/css/featherlight.min.css?1565288995" rel="stylesheet">
+    <link href="https://kuugal.github.io/documentation/css/perfect-scrollbar.min.css?1565288995" rel="stylesheet">
+    <link href="https://kuugal.github.io/documentation/css/auto-complete.css?1565288995" rel="stylesheet">
+    <link href="https://kuugal.github.io/documentation/css/atom-one-dark-reasonable.css?1565288995" rel="stylesheet">
+    <link href="https://kuugal.github.io/documentation/css/theme.css?1565288995" rel="stylesheet">
+    <link href="https://kuugal.github.io/documentation/css/hugo-theme.css?1565288995" rel="stylesheet">
     
-      <link href="https://kuugal.github.io/documentation/css/theme-green.css?1565219147" rel="stylesheet">
+      <link href="https://kuugal.github.io/documentation/css/theme-green.css?1565288995" rel="stylesheet">
     
 
-    <script src="https://kuugal.github.io/documentation/js/jquery-3.3.1.min.js?1565219147"></script>
+    <script src="https://kuugal.github.io/documentation/js/jquery-3.3.1.min.js?1565288995"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="https://kuugal.github.io/documentation/js/lunr.min.js?1565219147"></script>
-<script type="text/javascript" src="https://kuugal.github.io/documentation/js/auto-complete.js?1565219147"></script>
+<script type="text/javascript" src="https://kuugal.github.io/documentation/js/lunr.min.js?1565288995"></script>
+<script type="text/javascript" src="https://kuugal.github.io/documentation/js/auto-complete.js?1565288995"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/kuugal.github.io\/documentation\/";
     
 </script>
-<script type="text/javascript" src="https://kuugal.github.io/documentation/js/search.js?1565219147"></script>
+<script type="text/javascript" src="https://kuugal.github.io/documentation/js/search.js?1565288995"></script>
 
     
   </div>
@@ -281,7 +281,7 @@
 <li>
 <ul>
 <li><a href="#nuevo-documento">Nuevo documento</a></li>
-<li><a href="#forestry">Forestry</a></li>
+<li><a href="#deploy">Deploy</a></li>
 <li><a href="#configuración">Configuración</a>
 <ul>
 <li><a href="#rutas">Rutas</a></li>
@@ -328,36 +328,47 @@
 <hr />
 
 <ol>
-<li>Crea un archivo con extensión markdown <strong>.md</strong> en el directorio pertinente</li>
+<li><p>Crea un archivo con extensión markdown <strong>.md</strong> en el directorio pertinente</p></li>
 
-<li><p>Agrega el header <em>YAML o TOML</em> al archivo</p></li>
+<li><p>Agrega el header <em>YAML o TOML</em> al archivo</p>
+
+<pre><code>---
+title: &quot;Hugo&quot;
+tags: [&quot;hugo&quot;, &quot;CMS&quot;]
+menuTitle : &quot;Hugo flow&quot;
+---
+</code></pre></li>
 
 <li><p>Se agrega el logo (720px) <strong>Sólo si es md de instalación</strong></p>
 
-<p><img src="https://kuugal.github.io/documentation/img/hugo-logo.svg" width="720"></p></li>
+<pre><code>&lt;img src=&quot;/img/hugo-logo.svg&quot; width=&quot;720&quot;&gt;
+</code></pre></li>
 
 <li><p>Agrega contenido de manera organizada</p>
 
-<p>### Nuevo documento</p>
+<pre><code>### Nuevo documento
+___
+1. Crea un archivo con extensión markdown **.md** en el directorio pertinente
+</code></pre></li>
+</ol>
+
+<h3 id="deploy">Deploy</h3>
 
 <hr />
 
-<ol>
-<li>Crea un archivo con extensión markdown <strong>.md</strong> en el directorio pertinente</li>
-</ol></li>
-</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> Push de la branch Dev local a origin</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Checkout a rama Deploy, merge desde Dev</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Modificar el <em>config.toml</em> en <em>baseURL = &ldquo;<a href="https://kuugal.github.io/documentation/&quot;">https://kuugal.github.io/documentation/&quot;</a></em></label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Compilar a modo producción con <code>hugo -d public</code> estando en la carpeta del proyecto</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Push de la rama local a origin</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Merge desde Deploy a origin/gh-pages</label></li>
+</ul>
 
-<h3 id="forestry">Forestry</h3>
 
-<hr />
+<div class="notices note" ><p>Los cambios en el servidor tardarán un minuto en verse reflejados</p>
+</div>
 
-<ol>
-<li>Entra al panel administrativo de <a href="https://app.forestry.io/dashboard/#/" title="Admin panel">forestry</a></li>
-<li>Selecciona el proyecto de documentación</li>
-<li>Ve a la sección donde crear el nuevo documento</li>
-<li>Crea el md deacuero a las <a href="https://kuugal.github.io/documentation/uso/hugo-flow/#nuevo-documento" title="guías">guías</a>, guarda</li>
-<li>Espera 1 minuto a que se hagan los cambios en el servidor</li>
-</ol>
 
 <h3 id="configuración">Configuración</h3>
 
@@ -372,13 +383,16 @@
 /themes/learn/layouts/partials/logo.html</li>
 <li><strong>Imagenes</strong>
 /themes/learn/static/images/ <em>(.png or .ico)</em></li>
-<li><strong>Variante del tema</strong>
-/config.toml</li>
-</ul>
 
-<p>[params]
-  # Change default color scheme with a variant one. Can be &ldquo;red&rdquo;, &ldquo;blue&rdquo;, &ldquo;green&rdquo;.
-  themeVariant = &ldquo;red&rdquo;</p>
+<li><p><strong>Variante del tema</strong>
+/config.toml</p>
+
+<pre><code>[params]
+# Change default color scheme with a variant one. Can be &quot;red&quot;, &quot;blue&quot;, &quot;green&quot;.
+themeVariant = &quot;red&quot;
+
+</code></pre></li>
+</ul>
 
 
 <footer class=" footline" >
@@ -522,20 +536,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="https://kuugal.github.io/documentation/js/clipboard.min.js?1565219147"></script>
-    <script src="https://kuugal.github.io/documentation/js/perfect-scrollbar.min.js?1565219147"></script>
-    <script src="https://kuugal.github.io/documentation/js/perfect-scrollbar.jquery.min.js?1565219147"></script>
-    <script src="https://kuugal.github.io/documentation/js/jquery.sticky.js?1565219147"></script>
-    <script src="https://kuugal.github.io/documentation/js/featherlight.min.js?1565219147"></script>
-    <script src="https://kuugal.github.io/documentation/js/html5shiv-printshiv.min.js?1565219147"></script>
-    <script src="https://kuugal.github.io/documentation/js/highlight.pack.js?1565219147"></script>
+    <script src="https://kuugal.github.io/documentation/js/clipboard.min.js?1565288995"></script>
+    <script src="https://kuugal.github.io/documentation/js/perfect-scrollbar.min.js?1565288995"></script>
+    <script src="https://kuugal.github.io/documentation/js/perfect-scrollbar.jquery.min.js?1565288995"></script>
+    <script src="https://kuugal.github.io/documentation/js/jquery.sticky.js?1565288995"></script>
+    <script src="https://kuugal.github.io/documentation/js/featherlight.min.js?1565288995"></script>
+    <script src="https://kuugal.github.io/documentation/js/html5shiv-printshiv.min.js?1565288995"></script>
+    <script src="https://kuugal.github.io/documentation/js/highlight.pack.js?1565288995"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="https://kuugal.github.io/documentation/js/modernizr.custom-3.6.0.js?1565219147"></script>
-    <script src="https://kuugal.github.io/documentation/js/learn.js?1565219147"></script>
-    <script src="https://kuugal.github.io/documentation/js/hugo-learn.js?1565219147"></script>
+    <script src="https://kuugal.github.io/documentation/js/modernizr.custom-3.6.0.js?1565288995"></script>
+    <script src="https://kuugal.github.io/documentation/js/learn.js?1565288995"></script>
+    <script src="https://kuugal.github.io/documentation/js/hugo-learn.js?1565288995"></script>
 
-    <link href="https://kuugal.github.io/documentation/mermaid/mermaid.css?1565219147" rel="stylesheet" />
-    <script src="https://kuugal.github.io/documentation/mermaid/mermaid.js?1565219147"></script>
+    <link href="https://kuugal.github.io/documentation/mermaid/mermaid.css?1565288995" rel="stylesheet" />
+    <script src="https://kuugal.github.io/documentation/mermaid/mermaid.js?1565288995"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
