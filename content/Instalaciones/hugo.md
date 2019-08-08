@@ -5,7 +5,6 @@ draft: false
 tags: ["hugo", "CMS"]
 menuTitle : "Hugo CMS"
 ---
-<!--![example image](/img/hugo-logo.svg "An exemplary image")-->
 <img src="/img/hugo-logo.svg" width="720">
 ### ¿Qué es hugo?
 ***
@@ -44,13 +43,3 @@ Usa **hugo help** para ver la lista de comandos disponibles
 {{% /notice %}}
 
 
-{{% notice tip %}}
-{{% /notice %}}
-{{%expand "TIPS" %}}
-* **Favicon**
-/themes/learn/layouts/partials/favicon.html
-* **Logo**
-/themes/learn/layouts/partials/logo.html
-* **Imagenes**
-/themes/learn/static/images/ _(.png or .ico)_
-{{% /expand%}}
