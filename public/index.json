@@ -1,0 +1,85 @@
+[
+{
+	"uri": "https://kuugal.github.io/documentation/instalaciones/",
+	"title": "Instalación",
+	"tags": [],
+	"description": "",
+	"content": " Sección 1 Instalación Cómo instalar las herramientas.\n"
+},
+{
+	"uri": "https://kuugal.github.io/documentation/uso/",
+	"title": "Uso y configuración",
+	"tags": [],
+	"description": "",
+	"content": " Sección 2 Uso y configuración Cómo configurar y realizar procesos recurrentes con las herramientas.\n"
+},
+{
+	"uri": "https://kuugal.github.io/documentation/tags/cms/",
+	"title": "CMS",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://kuugal.github.io/documentation/",
+	"title": "Documentación",
+	"tags": [],
+	"description": "",
+	"content": " Documentación para uso personal  "
+},
+{
+	"uri": "https://kuugal.github.io/documentation/instalaciones/hugo/",
+	"title": "Hugo",
+	"tags": ["hugo", "CMS"],
+	"description": "",
+	"content": " ¿Qué es hugo? Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again. Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.\nWebsites built with Hugo are extremely fast and secure. Hugo sites can be hosted anywhere, including Netlify, Heroku, GoDaddy, DreamHost, GitHub Pages, GitLab Pages, Surge, Aerobatic, Firebase, Google Cloud Storage, Amazon S3, Rackspace, Azure, and CloudFront and work well with CDNs. Hugo sites run without the need for a database or dependencies on expensive runtimes like Ruby, Python, or PHP.\nWe think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.\nWindows  Download the latest zipped Hugo executable from Hugo Releases\n Create a subfolder in the Hugo folder: C:\\Hugo\\bin\n Extract all contents to your ..\\Hugo\\bin folder\n Agrega la variable de entorno C:\\Hugo\\bin a PATH\n Right click on the Start button Click on System Click on Advanced System Settings on the left Click on the Environment Variables… button on the bottom In the User variables section, find the row that starts with PATH (PATH will be all caps) Double-click on PATH Click the New… button Type in the folder where hugo.exe was extracted, which is C:\\Hugo\\bin Click OK at every window to exit   Comprueba la instalación con:\nhugo version  Usa hugo help para ver la lista de comandos disponibles\n\r"
+},
+{
+	"uri": "https://kuugal.github.io/documentation/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://kuugal.github.io/documentation/tags/hugo/",
+	"title": "hugo",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://kuugal.github.io/documentation/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://kuugal.github.io/documentation/uso/hugo-flow/",
+	"title": "Hugo",
+	"tags": ["hugo", "CMS"],
+	"description": "",
+	"content": " Nuevo documento  Crea un archivo con extensión markdown .md en el directorio pertinente\n Agrega el header YAML o TOML al archivo\n--- title: \u0026quot;Hugo\u0026quot; tags: [\u0026quot;hugo\u0026quot;, \u0026quot;CMS\u0026quot;] menuTitle : \u0026quot;Hugo flow\u0026quot; ---  Se agrega el logo (720px) Sólo si es md de instalación\n\u0026lt;img src=\u0026quot;/img/hugo-logo.svg\u0026quot; width=\u0026quot;720\u0026quot;\u0026gt;  Agrega contenido de manera organizada\n### Nuevo documento ___ 1. Crea un archivo con extensión markdown **.md** en el directorio pertinente   Deploy Push de la branch Dev local a origin Checkout a rama Deploy, merge desde Dev Modificar el config.toml en baseURL = \u0026ldquo;https://kuugal.github.io/documentation/\u0026quot; Compilar a modo producción con hugo -d public estando en la carpeta del proyecto Push de la rama local a origin Merge desde Deploy a origin/gh-pages  Los cambios en el servidor tardarán un minuto en verse reflejados\n\rConfiguración Rutas  Favicon /themes/learn/layouts/partials/favicon.html Logo /themes/learn/layouts/partials/logo.html Imagenes /themes/learn/static/images/ (.png or .ico) Variante del tema /config.toml\n[params] # Change default color scheme with a variant one. Can be \u0026quot;red\u0026quot;, \u0026quot;blue\u0026quot;, \u0026quot;green\u0026quot;. themeVariant = \u0026quot;red\u0026quot;   "
+},
+{
+	"uri": "https://kuugal.github.io/documentation/uso/markdown/",
+	"title": "Markdown",
+	"tags": ["markdown", "cheatsheet"],
+	"description": "",
+	"content": " Cheatsheet "
+},
+{
+	"uri": "https://kuugal.github.io/documentation/tags/cheatsheet/",
+	"title": "cheatsheet",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://kuugal.github.io/documentation/tags/markdown/",
+	"title": "markdown",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
