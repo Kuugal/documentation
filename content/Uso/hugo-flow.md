@@ -30,9 +30,18 @@ ___
 
 ### Deploy
 ___
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media 
+
+- [ ] Push de la branch Dev local a origin
+- [ ] Checkout a rama Deploy, merge desde Dev
+- [ ] Modificar el *config.toml* en *baseURL = "https://kuugal.github.io/documentation/"*
+- [ ] Compilar a modo producción con `hugo -d public` estando en la carpeta del proyecto
+- [ ] Push de la rama local a origin
+- [ ] Merge desde Deploy a origin/gh-pages
+
+
+{{% notice note %}}
+Los cambios en el servidor tardarán un minuto en verse reflejados
+{{% /notice %}}
 
 ### Configuración
 ___

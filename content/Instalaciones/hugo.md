@@ -7,7 +7,7 @@ menuTitle : "Hugo CMS"
 ---
 <img src="/img/hugo-logo.svg" width="720">
 ### ¿Qué es hugo?
-***
+___
 Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
 Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.
 
@@ -16,7 +16,7 @@ Websites built with Hugo are extremely fast and secure. Hugo sites can be hosted
 We think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.
 
 ### Windows
-***
+___
 1. Download the latest zipped Hugo executable from [Hugo Releases](https://github.com/gohugoio/hugo/releases)
 
 2. Create a subfolder in the Hugo folder: C:\Hugo\bin
