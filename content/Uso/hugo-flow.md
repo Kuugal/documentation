@@ -31,12 +31,12 @@ ___
 ### Deploy
 ___
 
-- [ ] Push de la branch Dev local a origin
-- [ ] Checkout a rama Deploy, merge desde Dev
-- [ ] Modificar el *config.toml* en *baseURL = "https://kuugal.github.io/documentation/"*
-- [ ] Compilar a modo producción con `hugo -d public` estando en la carpeta del proyecto
-- [ ] Push de la rama local a origin
-- [ ] Merge desde Deploy a origin/gh-pages
+1. Push de la branch Dev local a origin
+2. Eliminar rama gh-pages
+3. Crear rama gh-pages desde Dev y checkout
+4. Modificar el *config.toml* en `baseURL = "https://kuugal.github.io/documentation/"`
+5. Compilar a modo producción con `hugo -d public` estando en la carpeta del proyecto
+6. Push de la rama local a origin
 
 
 {{% notice note %}}
